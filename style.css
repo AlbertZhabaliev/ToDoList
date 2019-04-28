@@ -1,0 +1,47 @@
+li:hover{
+    cursor: pointer;
+}
+
+li {
+    font: 200 20px/1.5 Helvetica, Verdana, sans-serif;
+    border-bottom: 1px solid #ccc;
+  }
+  
+  li:last-child {
+    border: none;
+  }
+  
+ 
+.done{
+    text-decoration: line-through;
+}
+ul{
+  display: grid;
+  grid-template-columns: 320px;
+}
+li{
+  display: flex;
+  justify-content : space-around;
+  justify-content : space-between;
+}
+li > button{
+  background-color: #4CAF50; /* Green */
+  border: none;
+  color: white;
+  padding: 5px 20px;
+  text-align: center;
+  text-decoration:none;
+  font-size: 16px;
+  width: 100px;
+}
+
+button{
+  background-color: #5f6fc9a8; /* Green */
+  border: none;
+  color: white;
+  padding: 5px 20px;
+  text-align: center;
+  text-decoration:none;
+  font-size: 16px;
+  width: 100px;
+} 
